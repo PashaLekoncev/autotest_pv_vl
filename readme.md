@@ -5,7 +5,8 @@
 
 # Запуск selenium-server-standalone сервера
 
-.\node_modules\.bin\webdriver-manager start
+1. .\node_modules\.bin\webdriver-manager update
+2. .\node_modules\.bin\webdriver-manager start
 
 # Запуск приемочных тестов
 
