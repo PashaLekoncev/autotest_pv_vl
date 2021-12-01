@@ -10,4 +10,4 @@
 
 # Запуск приемочных тестов
 
-.\vendor\bin\codecept.bat run  acceptance
+ - .\vendor\bin\codecept.bat run  acceptance

@@ -1,29 +1,26 @@
 <?php
 
-class IndexCest
+class UserGreetingCest
 {
     public function _before(AcceptanceTester $I)
     {
     }
-
-    // tests
     public function tryToTest(AcceptanceTester $I)
     {
+        # Авторизация пользователя
         $login = "pasha1249";
         $password = '123123123';
         $I->login($login, $password);
-        # Авторизация
         
+        # Преход на станицу "Личные данные"
         $I->amOnPage('/lk/?action=person');
-        # Преход на станицу с Личными данными
         
+        # Получает текущее ФИО пользователя
         $name = $I->grabValueFrom('input[name=name]');
-        # Забираем ФИО пользователя
         $I->amOnPage('/lk');
 
-        $I->see($name . ', здравствуйте!','');
-        $I->see('Спасибо, что пришли к нам снова!');
         # Проверяем что приветствие выводится с правильным ФИО
-
+        $I->see($name . ', здравствуйте!');
+        $I->see('Спасибо, что пришли к нам снова!');
     }
 }

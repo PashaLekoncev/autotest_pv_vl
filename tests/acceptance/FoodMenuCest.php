@@ -5,10 +5,9 @@ class FoodMenuCest
     public function _before(AcceptanceTester $I)
     {
     }
-
-    // tests
     public function tryToTest(AcceptanceTester $I)
     {
+        # Перечень категорий
         $foodCategoty = array(
         'Салаты и холодные закуски',
         'Первые блюда',
@@ -19,12 +18,12 @@ class FoodMenuCest
         'Меню',
         );
 
-        $I->amOnPage('/corporate');
         # Преход на станицу с Личными данными
-
+        $I->amOnPage('/corporate');
+        
+        # Проверка что в меню еды выволятся категории из массива
         for ($i=0; $i<count($foodCategoty); $i++) {
             $I->see($foodCategoty[$i], '.light_brown_grad_menu_vertical');
         }
-        # Проверка что в меню еды выволятся нужные категории
     }
 }
