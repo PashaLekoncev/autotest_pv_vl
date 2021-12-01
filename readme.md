@@ -1,12 +1,12 @@
 # Уcтановка зависимостей
 
-1. composer install
-2. npm install
+ - composer install
+ - npm install
 
 # Запуск selenium-server-standalone сервера
 
-1. .\node_modules\.bin\webdriver-manager update
-2. .\node_modules\.bin\webdriver-manager start
+ - .\node_modules\.bin\webdriver-manager update
+ - .\node_modules\.bin\webdriver-manager start
 
 # Запуск приемочных тестов
 
