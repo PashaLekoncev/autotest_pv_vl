@@ -1,8 +1,8 @@
 <?php
 
-class UserGreetingCest
+class LkUser
 {
-    public function tryToTestUserGreeting(AcceptanceTester $I)
+    public function UserGreetingIsVisible(AcceptanceTester $I)
     {
         # Авторизация пользователя
         $login = "pasha1249";

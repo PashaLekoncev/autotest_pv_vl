@@ -1,8 +1,8 @@
 <?php
 
-class FoodMenuCest
+class CategoryFoodCest
 {
-    public function tryToTestFoodMenu(AcceptanceTester $I)
+    public function FoodMenuIsVisible(AcceptanceTester $I)
     {
         # Перечень категорий
         $foodCategoty = array(
