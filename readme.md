@@ -1,4 +1,4 @@
-# Утcановка зависимостей
+# Уcтановка зависимостей
 
 1. composer install
 2. npm install
