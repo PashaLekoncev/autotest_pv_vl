@@ -1,0 +1,27 @@
+{
+  "name": "pb_vl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.1.0",
+    "webdriver-manager": "^12.1.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PashaLekoncev/autotest_pv_vl.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PashaLekoncev/autotest_pv_vl/issues"
+  },
+  "homepage": "https://github.com/PashaLekoncev/autotest_pv_vl#readme"
+}

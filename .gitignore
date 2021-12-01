@@ -87,3 +87,4 @@ resources/.arch-internal-preview.css
 .arch-internal-preview.css
 composer.lock
 package-lock.json
+node_modules
