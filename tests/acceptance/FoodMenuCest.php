@@ -2,10 +2,7 @@
 
 class FoodMenuCest
 {
-    public function _before(AcceptanceTester $I)
-    {
-    }
-    public function tryToTest(AcceptanceTester $I)
+    public function tryToTestFoodMenu(AcceptanceTester $I)
     {
         # Перечень категорий
         $foodCategoty = array(

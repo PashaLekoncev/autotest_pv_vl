@@ -2,10 +2,7 @@
 
 class UserGreetingCest
 {
-    public function _before(AcceptanceTester $I)
-    {
-    }
-    public function tryToTest(AcceptanceTester $I)
+    public function tryToTestUserGreeting(AcceptanceTester $I)
     {
         # Авторизация пользователя
         $login = "pasha1249";
