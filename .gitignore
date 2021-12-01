@@ -4,7 +4,8 @@
 # /composer.lock
 /fuel/vendor
 test
-
+_data
+_output
 
 
 # the fuelphp document
